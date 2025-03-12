@@ -1,0 +1,32 @@
+.navbar--container{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+    position: sticky;
+    background-color: #21D4F0;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    z-index: 2;
+
+}
+
+
+.navbar--logo img{
+width: 80px;
+
+}
+
+.navbar--menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu--links{
+    display: flex;
+    gap: 25px;
+    font-size: 1.2rem;
+    border-right: solid 0.1em #F4E2DE;
+    padding-inline: 25px;
+}
+

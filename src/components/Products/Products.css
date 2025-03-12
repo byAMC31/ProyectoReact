@@ -1,0 +1,12 @@
+.card--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product--card{
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    padding: 28px;
+    margin: 20px;
+}
