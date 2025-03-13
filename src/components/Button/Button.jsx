@@ -18,6 +18,7 @@ import './Button.css' //-> actualización
 
 //     )
 // }
+
 function Button({ texto, onClick }) {
     return (
         <button onClick={onClick}>

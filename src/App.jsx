@@ -3,6 +3,14 @@ import Button from './components/Button/Button'
 import BasicCard from './components/CardMui/Card'
 import NavBar from './components/NavBar/Navbar'
 import Products from './components/Products/Products'
+import CollapseWrapCopy from './components/CollapseWrapCopy/CollapseWrapCopy'
+
+
+const imagenesCarrusel = [
+  "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/6142201/1.jpg?2933",
+  "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/241417/1.jpg?6747",
+  "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/06/4410121/1.jpg?4437"
+];
 
 
 function App() {
@@ -24,6 +32,11 @@ function App() {
 
       {/* titulo h */}
       <h1>Vite + React</h1>
+
+
+      <CollapseWrapCopy imagenes={imagenesCarrusel} />
+
+
 
       {/* Products */}
       <Products
